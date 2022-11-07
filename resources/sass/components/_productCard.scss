@@ -1,0 +1,46 @@
+.btn-quantity {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 2rem;
+  left: 2rem;
+}
+
+.card-title {
+  height: 6rem;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+
+.card-title-order-confirm {
+  height: auto;
+  padding: 0;
+}
+
+.card.product-card {
+  border-color: var(--clr-primary-500);
+  transition: transform 0.5s;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 5px var(--clr-primary-500);
+    z-index: 10;
+    color: var(--clr-neutral-50);
+    background-color: var(--clr-neutral-800);
+  }
+}
+.card-body-no-padding {
+  padding: 0;
+}
+
+.card-text {
+  background-color: var(--clr-primary-500);
+  margin-bottom: 4rem;
+}
+
+.product-card-restaurant-guest {
+  max-height: 21rem;
+}
+
+.card-order-confirm {
+  background-color: transparent;
+  margin: 0;
+}

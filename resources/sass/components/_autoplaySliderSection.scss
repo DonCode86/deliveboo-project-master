@@ -1,0 +1,17 @@
+.dot {
+  position: relative;
+  display: block;
+  float: left;
+  width: 3px;
+  height: 3px;
+  margin-right: 3px;
+  border-right: 3px solid #ffcc00;
+}
+
+.line-dot {
+  border-right: 40px solid #ffcc00;
+}
+
+.autoplay-slider-container {
+  padding: 5rem 0;
+}

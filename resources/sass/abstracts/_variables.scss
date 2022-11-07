@@ -1,0 +1,25 @@
+$font-family-sans-serif: 'Inter', sans-serif;
+
+$space-multipliers: (
+  1: 0.125,
+  2: 0.25,
+  3: 0.375,
+  4: 0.5,
+  5: 0.625,
+  6: 0.75,
+  7: 1,
+  8: 1.25,
+  9: 1.5,
+  10: 2,
+  11: 3,
+  12: 4,
+  13: 6,
+  14: 8,
+);
+
+:root {
+  --space-unit: 1rem;
+  @each $item, $value in $space-multipliers {
+    --spacing-#{$item}: calc(#{$value} * var(--space-unit));
+  }
+}

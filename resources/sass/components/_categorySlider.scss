@@ -1,0 +1,53 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .card {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #f3f5ff;
+  }
+
+  .card-selected {
+    .card-img {
+      opacity: 0.2;
+    }
+  }
+
+  .card-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+
+  .card-slider-title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background: var(--clr-primary-500);
+    font-size: 1.1vw;
+    padding: 0.1rem 0;
+    @media screen and (max-width: 1023px) {
+      font-size: 1.8vw;
+    }
+    @media screen and (max-width: 991px) {
+      font-size: 1.5vw;
+    }
+    @media screen and (max-width: 767px) {
+      font-size: 3.1vw;
+    }
+  }
+}

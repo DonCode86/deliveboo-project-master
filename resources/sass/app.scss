@@ -1,0 +1,38 @@
+// Abstracts
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+// Vendors
+@import 'vendor/bootstrap';
+
+// Base
+@import 'root/typography';
+
+// Layout
+@import 'layouts/navbar';
+
+// Components
+@import 'components/register';
+@import 'components/cartButton';
+@import 'components/indexRestaurants';
+@import 'components/buttons';
+@import 'components/navbar';
+@import 'components/cards';
+@import 'components/navbars';
+@import 'components/restaurantPage';
+@import 'components/productCard';
+@import 'components/autoplaySliderSection';
+@import 'components/footerGuest';
+@import 'components/categorySlider';
+@import 'components/burgerSection';
+@import 'components/jumbotron';
+@import 'components/br';
+@import 'components/how-section';
+@import 'components/checkout';
+@import 'components/login';
+@import 'components/productsIndex';
+@import 'components/dashboard';
+@import 'components/restaurantShow';
+@import 'components/appCart'; // Pages
+// Themes
+@import 'themes/default';

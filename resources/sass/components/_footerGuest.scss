@@ -1,0 +1,65 @@
+.inner-container {
+  margin: auto;
+  width: 100%;
+  max-width: 82.5rem;
+}
+.top-footer {
+  margin-top: 4rem;
+  background-color: #ffcc00;
+  background-repeat: no-repeat;
+
+  p {
+    font-size: 1vw;
+    line-height: 1.6rem;
+    @media screen and (max-width: 600px) {
+      font-size: 1.8vw;
+    }
+  }
+
+  .col-title {
+    margin-bottom: 1.2rem;
+  }
+
+  .col-title h4 {
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 1.5;
+    @media screen and (max-width: 600px) {
+      font-size: 2.2vw;
+    }
+  }
+
+  .times span {
+    opacity: 0.8;
+  }
+}
+.copiright {
+  background-color: #ffcc00;
+  font-size: 0.9vw;
+  @media screen and (max-width: 750px) {
+    font-size: 1.5vw;
+  }
+}
+
+.col-footer-img {
+  @media screen and (max-width: 750px) {
+    margin-top: 3rem;
+  }
+}
+
+.footer-img {
+  mix-blend-mode: multiply;
+  width: 100%;
+}
+.footer-logo {
+  width: 100%;
+  mix-blend-mode: overlay;
+}
+
+.col-left-footer,
+.col-right-footer {
+  padding-top: 3rem;
+  @media screen and (max-width: 750px) {
+    padding-top: 1rem;
+  }
+}

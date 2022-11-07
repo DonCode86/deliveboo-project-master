@@ -1,0 +1,33 @@
+.index-container {
+  background-color: var(--clr-neutral-900);
+  height: 93.1vh;
+}
+
+.index-row {
+  padding: 4rem 0;
+  background-color: var(--clr-primary-500);
+}
+
+.index-title {
+  font-size: 5vw;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.index-card {
+  transition: box-shadow 0.5s;
+  &:hover {
+    box-shadow: 0px 0px 10px 10px var(--clr-neutral-900);
+    cursor: pointer;
+  }
+}
+
+.btn-index:hover {
+  background-color: var(--clr-primary-500);
+  color: var(--clr-neutral-900);
+}
+
+.btn-index-show:hover {
+  background-color: var(--clr-neutral-900);
+  color: var(--clr-primary-500);
+}

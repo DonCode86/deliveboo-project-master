@@ -1,0 +1,15 @@
+.background-register {
+  padding-top: 14rem;
+  background-image: url('https://st4.depositphotos.com/13324256/19802/i/450/depositphotos_198022492-free-stock-photo-top-view-arrangement-fresh-ripe.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 93vh;
+}
+
+.register-card {
+  transition: box-shadow 0.5s;
+  &:hover {
+    box-shadow: 0px 0px 10px 10px var(--clr-primary-500);
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,46 @@
+.burger-section {
+  height: auto;
+  background-image: url(https://marketplace.foodotawp.com/wp-content/uploads/2021/05/promo-11.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  margin-bottom: 3.125rem;
+  padding: 6rem 0;
+}
+.section-title,
+h2 {
+  font-weight: bold;
+}
+
+.section-image {
+  width: 9.4rem;
+  @media screen and (max-width: 850px) {
+    width: 14rem;
+  }
+}
+
+.burger-subtitle {
+  font-size: 1.3vw;
+  @media screen and (max-width: 850px) {
+    font-size: 2vw;
+  }
+}
+
+.dot {
+  position: relative;
+  display: block;
+  float: left;
+  width: 3px;
+  height: 3px;
+  margin-right: 3px;
+  border-right: 3px solid #231900;
+}
+.line-dot {
+  border-right: 40px solid #231900;
+}
+
+.burger-text-container {
+  @media screen and (max-width: 850px) {
+    padding-left: 2rem;
+  }
+}

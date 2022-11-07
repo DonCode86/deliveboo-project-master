@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Permanent+Marker&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.hero-restaurant-products {
+  height: 50vh;
+  background-image: url('https://img.freepik.com/free-photo/frying-pan-empty-with-various-spices-black-table_1220-561.jpg?w=1380&t=st=1662720275~exp=1662720875~hmac=ad31cfd410f4a9043317fffda2b06074e0f659e2a0ef96c1c42645da0c46864b');
+  background-size: cover;
+  font-family: 'Dancing Script', cursive;
+
+  .products-hero-title {
+    padding-left: 5rem;
+    font-size: 6vw;
+    max-width: 50%;
+    @media screen and (max-width: 1029px) {
+      padding-left: 3rem;
+    }
+    @media screen and (min-width: 1600px) {
+      font-size: 3vw;
+    }
+  }
+}
+
+.dot {
+  position: relative;
+  display: block;
+  float: left;
+  width: 3px;
+  height: 3px;
+  margin-right: 3px;
+  border-right: 3px solid #ffcc00;
+}
+
+.line-dot {
+  border-right: 40px solid #ffcc00;
+}

@@ -1,0 +1,12 @@
+.navbar {
+  --bs-navbar-toggler-border-radius: 0;
+  --bs-navbar-toggler-focus-width: 0.125rem;
+
+  --bs-navbar-color: var(--clr-neutral-500);
+  --bs-navbar-hover-color: var(--clr-neutral-700);
+  --bs-navbar-active-color: var(--clr-neutral-900);
+  --bs-navbar-disabled-color: var(--clr-neutral-300);
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-light-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+  --bs-navbar-brand-color: var(--bs-navbar-active-color);
+  --bs-navbar-brand-hover-color: var(--bs-navbar-active-color);
+}

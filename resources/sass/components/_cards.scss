@@ -1,0 +1,35 @@
+// RESTAURANT
+.restaurant-card {
+  max-height: 18rem;
+  .category-label {
+    padding: 0.375rem 0.625rem;
+    background-color: var(--clr-primary-500);
+    border-radius: 0.25rem;
+  }
+}
+.restaurant-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0.3125rem 0.9375rem;
+  scale: 1.01;
+  transition: all 0.3s ease-in-out;
+}
+
+// PRODUCT
+.product-card {
+  max-height: 16rem;
+  button {
+    min-width: 1rem;
+  }
+}
+.product-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0.3125rem 0.9375rem;
+  scale: 1.01;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-body-restaurant-card {
+  padding: 0;
+}
+
+.card-text-get-started {
+  background-color: none;
+}
